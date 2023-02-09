@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: blue;
+    height: 60px;
+}
+
+#sidebar {
+    background-color: green;
+    height: 400px;
+
+    float: left;
+}
+
+main {
+    background-color: coral;
+    height: 400px;
+
+}
+
+footer {
+    background-color: red;
+    height: 60px;
+    overflow-y: scroll;
+}
