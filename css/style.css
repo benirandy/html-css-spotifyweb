@@ -7,23 +7,37 @@
 header {
     background-color: blue;
     height: 60px;
+
 }
+
+.upgradrede-btn {
+    border: 0;
+    height: 10px;
+    padding: 0 20px;
+    width: 10px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    justify-content: end;
+}
+
 
 #sidebar {
     background-color: green;
     height: 400px;
-
     float: left;
+    /*devo creare vari content e inserire all'interno un lista*/
 }
 
 main {
     background-color: coral;
     height: 400px;
-
+    /*devo creare delle section(3),poi creare delle classi per identificarle*/
 }
 
 footer {
     background-color: red;
     height: 60px;
-    overflow-y: scroll;
+    /*il mio deve avere una section con varie liste che mi permetteranno de fare una navbar scroll*/
 }
