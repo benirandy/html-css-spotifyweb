@@ -10,16 +10,20 @@ header {
 
 }
 
-.upgradrede-btn {
-    border: 0;
-    height: 10px;
-    padding: 0 20px;
-    width: 10px;
-    text-align: center;
+.upgrade-btn {
+    border: 1px solid white;
+
+    width: 200px;
     color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    justify-content: end;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: black;
+
+    text-align: center;
+    float: right;
+
+
+
 }
 
 
@@ -40,4 +44,24 @@ footer {
     background-color: red;
     height: 60px;
     /*il mio deve avere una section con varie liste che mi permetteranno de fare una navbar scroll*/
+}
+
+.container {
+    height: calc(100vh - 60px);
+}
+
+@media screen and (min-width: 768) {
+    #sidebar {
+        width: 50px;
+        background-color: black;
+    }
+
+}
+
+@media screen and (min-width:960) {
+    #sidebar {
+        width: 200px;
+        background-color: black;
+    }
+
 }
